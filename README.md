@@ -34,7 +34,7 @@ Highlights:
 | 2021 – 2022 | Oracle India | Senior Customer Success Manager (IC4) – Oracle Cloud |
 | 2017 – 2020 | Tech Mahindra | Engagement Manager – Oracle Cloud HCM |
 | 2013 – 2016 | Oracle India | Principal Consultant (IC3) – Oracle Fusion HCM Cloud |
-| 2002 – 2013 | Capgemini · BDI Systems · Tech Skills ERP Guru · IBM · Kanbay · Millan Network | Consulting, PeopleSoft HCM, release management |
+| 2002 – 2013 | Capgemini · IBM · Kanbay | Consulting, PeopleSoft HCM, release management |
 
 ### 📋 Projects delivered
 

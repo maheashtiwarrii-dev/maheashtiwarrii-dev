@@ -3,7 +3,7 @@
 **Enterprise AI Strategy & Transformation Leader · Oracle HCM · Agentic HCM · Oracle APEX AI**
 PMP® · Oracle Cloud Project Management Certified · Bengaluru, India
 
-I have 23+ years in enterprise systems and GCC consulting, including 12+ years on Oracle Cloud / Fusion across HCM, ERP, SCM and EPM. I'm currently **Director – Digital Transformation at GERP Technologies**, where I lead Oracle Cloud implementations with full P&L ownership and run an Oracle Cloud Centre of Excellence.
+I have 23+ years in enterprise systems and GCC consulting, including 12+ years on Oracle Cloud / Fusion across HCM, ERP, SCM and EPM. I'm currently **Director – Digital Transformation at ERP Technologies**, where I lead Oracle Cloud implementations with full P&L ownership and run an Oracle Cloud Centre of Excellence.
 
 I'm now building with **Agentic AI and Spec-Driven Development**. My current work is the Agentic HCM Transformation: autonomous AI agents across the employee lifecycle (onboarding, recruitment, performance, learning and compensation).
 
@@ -36,7 +36,7 @@ Platform:
 
 | Years | Organisation | Role |
 |---|---|---|
-| 2024 – now | GERP Technologies | Director – Digital Transformation |
+| 2024 – now | ERP Technologies | Director – Digital Transformation |
 | 2022 – 2023 | Deloitte India | Associate Director |
 | 2021 – 2022 | Oracle India | Senior Customer Success Manager (IC4) – Oracle Cloud |
 | 2017 – 2020 | Tech Mahindra | Engagement Manager – Oracle Cloud HCM |
@@ -52,7 +52,7 @@ Platform:
 |---|---|---|---|
 | Mar 2026 – now | Project, Change Management and Enterprise AI Strategy | Director – Digital Transformation · APEXLang AI | Project management, change management and Enterprise AI strategy; custom application development using APEXLang AI |
 | Jan – Mar 2026 | Interim Program Management and Agentic AI HCM · Oracle Contractor | Program Manager · Agentic AI HCM, Oracle EBS ERP | Agentic AI HCM solution with autonomous AI agents across the employee lifecycle; persona-based HCM use cases; Oracle EBS ERP skill-gap |
-| Aug 2024 – now | End-to-end Oracle Cloud implementations · GERP Technologies, Bengaluru | Director – Digital Transformation · HCM, ERP, SCM, CoE, pre-sales | Full P&L delivery from discovery through go-live and hyper-care; scaled the Oracle Cloud CoE; proposals and contracts of $200K–$9M USD; delivery timelines optimised by 30% |
+| Aug 2024 – now | End-to-end Oracle Cloud implementations · ERP Technologies, Bengaluru | Director – Digital Transformation · HCM, ERP, SCM, CoE, pre-sales | Full P&L delivery from discovery through go-live and hyper-care; scaled the Oracle Cloud CoE; proposals and contracts of $200K–$9M USD; delivery timelines optimised by 30% |
 | Jul 2021 – Oct 2022 | Oracle Cloud Portfolio · Enterprise customers across EMEA | Portfolio Manager (Sr. CSM, IC4) · HCM, ERP, SCM, Payroll | Implementation and go-live readiness assessments, risk registers, RAG / EWS reporting, weekly governance; KPI achievement FY22 311%, FY23 Q1 200% |
 | Jan 2017 – Oct 2020 | Oracle HCM Cloud implementations · Tech Mahindra, global enterprise clients | Engagement Manager · HCM Cloud, pre-sales | SOW, charter, project and instance plans, steering committees, cutover and post-go-live plans; Centre of Excellence with reusable accelerators |
 | Jan 2017 – Oct 2020 | Project, Program and Change Management · Tech Mahindra, Oracle Cloud HCM engagements | Engagement Manager · HR transformation, resource planning | Program oversight across geographies; adoption strategy with CXO-level ADKAR governance; BIA by role and domain across CRP 1 & 2; UAT enablement; "Pat on Back" Award (twice) |

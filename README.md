@@ -11,16 +11,23 @@ I'm now building with **Agentic AI and Spec-Driven Development**. My current wor
 
 ### 🔭 What I'm building
 
-**[OAN Portal](https://github.com/maheashtiwarrii-dev/OAN_APP_Portal)** is an alumni-network portal on Oracle APEX 26 and Autonomous Database, built spec-first. The process:
+**Talent Marketplace Solution** is an AI-powered talent marketplace for a professional community of members, partner companies, mentors and trainers. It runs on Oracle APEX 26 and Oracle AI Database 26ai and was built spec-first. The process:
 - BRD → PRD → plan → APEX build;
 - each stage passes a 2-of-3 review gate;
-- every iteration is deployed to a live dev environment.
+- every iteration is deployed to a live dev environment, with 220 automated tests on each deploy.
 
-Highlights:
+AI capabilities:
+- **AI talent matching.** Smart matching, recommended opportunities, jobs, learning and mentors, similar opportunities and suggested members. Each is ranked on four signals (skills, skill gaps, interests and roles applied for) using in-database vector embeddings, and every card says why.
+- **Skills advisors.** Suggest skills for members, job and gig postings and training, from free text and from roles like theirs. "Your skills vs this role" shows each skill a role asks for, the member's level (Novice to Expert) and training that closes a gap.
+- **Skills dashboard.** Shows skills by headcount and by demand, the proficiency mix, skills in short supply and learning outcomes to cover next.
+- **AI agent.** A floating assistant answers plain-language questions about roles, events, people, volunteering and how-to.
+- **Responsible AI.** Each AI feature sits behind a data-protection (DPIA) gate. Answers are built from the platform's own data, members opt in to AI matching, and usage is capped per member per day and reported to admins.
+
+Platform:
 - **Two-schema security model.** The app schema sees only masked views and packages, never tables.
 - **Per-section privacy.** Members control visibility section by section (members, connections, chapter, private), using SQL macros.
-- **Alumni directory.** Faceted search over masked data.
-- **Profile depth.** Profiles cover Oracle tenure, experience, education, certifications, career status and a private CV.
+- **Member directory.** Faceted search over masked data.
+- **Profile depth.** Profiles cover tenure, experience, education, certifications, skills with self-rated levels, career status and a private CV.
 - **Testing and CI.** utPLSQL suites run on the live database, and the APEXLang source is validated in CI.
 
 ---

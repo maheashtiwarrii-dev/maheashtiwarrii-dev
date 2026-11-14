@@ -18,6 +18,8 @@ I'm now building with **Agentic AI and Spec-Driven Development**. My current wor
 - each stage passes a 2-of-3 review gate;
 - every iteration is deployed to a live dev environment, with 220+ automated tests on each deploy.
 
+<p align="center"><img src="talent-marketplace-explore.svg" width="100%" alt="Explore the Talent Marketplace: project opportunities, continuous learning, coaches, welcome new members, meetups, events, volunteering, jobs, community announcements and community wellbeing."></p>
+
 <p align="center"><img src="talent-marketplace-features.svg" width="100%" alt="Key features: Coaching, Continuous Learning, Mentoring, Job Discovery, Skills Center and Volunteering. AI capabilities: smart matching, recommendations, your skills vs this role, skills advisors for members, postings and learning, suggested members, and an Ask agent."></p>
 
 AI capabilities:

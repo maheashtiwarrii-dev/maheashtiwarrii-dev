@@ -14,7 +14,9 @@ I'm now building with **Agentic AI and Spec-Driven Development**. My current wor
 **Talent Marketplace Solution** is an AI-powered talent marketplace for a professional community of members, partner companies, mentors and trainers. It runs on Oracle APEX 26 and Oracle AI Database 26ai and was built spec-first. The process:
 - BRD → PRD → plan → APEX build;
 - each stage passes a 2-of-3 review gate;
-- every iteration is deployed to a live dev environment, with 220 automated tests on each deploy.
+- every iteration is deployed to a live dev environment, with 220+ automated tests on each deploy.
+
+<p align="center"><img src="talent-marketplace-features.svg" width="100%" alt="Key features: Coaching, Continuous Learning, Mentoring, Job Discovery, Skills Center and Volunteering. AI capabilities: smart matching, recommendations, your skills vs this role, skills advisors for members, postings and learning, suggested members, and an Ask agent."></p>
 
 AI capabilities:
 - **AI talent matching.** Smart matching, recommended opportunities, jobs, learning and mentors, similar opportunities and suggested members. Each is ranked on four signals (skills, skill gaps, interests and roles applied for) using in-database vector embeddings, and every card says why.

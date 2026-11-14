@@ -38,6 +38,29 @@ Platform:
 
 ### 💼 Experience at a glance
 
+<p align="center"><img src="experience.svg" width="100%" alt="Experience at a glance: 2024 to now ERP Technologies, Director – Digital Transformation; 2022 to 2023 Deloitte India, Associate Director; 2021 to 2022 Oracle India, Senior Customer Success Manager; 2017 to 2020 Tech Mahindra, Engagement Manager; 2013 to 2016 Oracle India, Principal Consultant; 2002 to 2013 Capgemini, IBM and Kanbay."></p>
+
+### 📋 Projects delivered
+
+<p align="center"><img src="projects-oracle-cloud.svg" width="100%" alt="Projects delivered: Oracle Cloud, Agentic AI and Fusion HCM"></p>
+
+<details>
+<summary><b>PeopleSoft HCM and HR transformation</b></summary>
+
+<p align="center"><img src="projects-peoplesoft.svg" width="100%" alt="Projects delivered: PeopleSoft HCM and HR transformation"></p>
+
+</details>
+
+<details>
+<summary><b>Release management, resourcing and e-commerce</b></summary>
+
+<p align="center"><img src="projects-release.svg" width="100%" alt="Projects delivered: Release management, resourcing and e-commerce"></p>
+
+</details>
+
+<details>
+<summary>Text version of the experience and project tables</summary>
+
 | Years | Organisation | Role |
 |---|---|---|
 | 2024 – now | ERP Technologies | Director – Digital Transformation |
@@ -47,10 +70,7 @@ Platform:
 | 2013 – 2016 | Oracle India | Principal Consultant (IC3) – Oracle Fusion HCM Cloud |
 | 2002 – 2013 | Capgemini · IBM · Kanbay | Consulting, PeopleSoft HCM, release management |
 
-### 📋 Projects delivered
-
-<details open>
-<summary><b>Oracle Cloud, Agentic AI and Fusion HCM</b></summary>
+**Oracle Cloud, Agentic AI and Fusion HCM**
 
 | Period | Project and client | Role and scope | Delivered |
 |---|---|---|---|
@@ -65,10 +85,7 @@ Platform:
 | From Dec 2013 | Fusion Global HR and Talent Management · Global enterprise client | Lead Functional Consultant | UAT support enabling global business users to perform HR transactions |
 | Sep – Nov 2013 | Fusion HCM Core HR · UK client | HCM Functional Consultant | Work-structure configuration: enterprise, business units, legislative data, legal entities, departments, org tree, flexfields |
 
-</details>
-
-<details>
-<summary><b>PeopleSoft HCM and HR transformation</b></summary>
+**PeopleSoft HCM and HR transformation**
 
 | Period | Project and client | Role and scope | Delivered |
 |---|---|---|---|
@@ -80,10 +97,7 @@ Platform:
 | Apr 2008 – Jul 2009 | PeopleSoft HRMS 9.1 re-implementation · Shipping client, India | Business Analyst · Core HR, Global Payroll | Implementation strategy, configuration roadmap, legacy migration, data mapping, UAT strategy; Core HR conversion through Component Interface |
 | Oct 2006 – Jun 2007 | Internal HR Portal · Financial services technology client | Functional Consultant · Core HR, Talent Management, Payroll | As-Is process blueprints, gap analysis against the HRIS product, BRD, workflows, test objectives and test cases |
 
-</details>
-
-<details>
-<summary><b>Release management, resourcing and e-commerce</b></summary>
+**Release management, resourcing and e-commerce**
 
 | Period | Project and client | Role and scope | Delivered |
 |---|---|---|---|

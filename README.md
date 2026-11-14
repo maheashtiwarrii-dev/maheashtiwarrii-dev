@@ -1,5 +1,7 @@
 # Hi, I'm Mahesh Tiwari 👋
 
+<p align="center"><img src="profile-card.png" width="100%" alt="Profile card for Mahesh Tiwari: 23+ years in enterprise systems and GCC consulting; About me; experience including 4 years 10 months at Oracle (Principal Consultant HCM, Portfolio Manager CSM), then ERP Technologies, Deloitte India, Tech Mahindra, Capgemini and IBM; education and certifications; and what others say, from LinkedIn recommendations."></p>
+
 **Enterprise AI Strategy & Transformation Leader · Oracle HCM · Agentic HCM · Oracle APEX AI**
 PMP® · Oracle Cloud Project Management Certified · Bengaluru, India
 

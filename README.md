@@ -174,4 +174,4 @@ Platform:
 Cricket, trekking, cycling, fantasy novels, yoga and meditation.
 
 ### 📫 Connect
-[LinkedIn](https://www.linkedin.com/in/maheash249108)
+[LinkedIn](https://www.linkedin.com/in/maheash-tiwarrii-4355433b1/)

@@ -29,6 +29,18 @@ AI capabilities:
 - **AI agent.** A floating assistant answers plain-language questions about roles, events, people, volunteering and how-to.
 - **Responsible AI.** Each AI feature sits behind a data-protection (DPIA) gate. Answers are built from the platform's own data, members opt in to AI matching, and usage is capped per member per day and reported to admins.
 
+AI agent journey for a new member's first five days:
+
+A different agent persona leads each of the member's first five sign-in days. It appears in a companion panel on every page and greets the member by name and time of day. Each step links to where it is done and ticks itself when the member does it. Each step also has an Ask button that opens the AI assistant with the question already typed in.
+
+| Day | Agent | What it does |
+|---|---|---|
+| 1 | **Welcome Buddy**: warm, empathetic, a 24/7 companion | Helps the member set up their profile: skills, work experience, a certification, LinkedIn or GitHub import, and skill levels in the Skills Center. |
+| 2 | **Success Coach**: mentor-like and proactive | The member's own motivators steer the AI. Steps: choose career focus areas, apply for a recommended opportunity, join learning that closes a skill gap. |
+| 3 | **Community Connector** | Ask a mentor or coach, message a buddy, connect with alumni, sign up for a meetup. |
+| 4 | **Profile Completion Agent** | Checks what the profile still lacks: details, LinkedIn and GitHub links, skills and their levels, certifications, education, previous company experience and tenure. Sends one reminder naming exactly what is missing. |
+| 5 | **Coaching Prep Agent** | Prepares coaches for high-impact moments. Reminds the member and their coach to set up a 1:1, and gives the coach a brief. Coaches get a 1:1 prep view for every mentee, with team insights. Only what the mentee shared for mentoring is used, never private details. |
+
 Platform:
 - **Two-schema security model.** The app schema sees only masked views and packages, never tables.
 - **Per-section privacy.** Members control visibility section by section (members, connections, chapter, private), using SQL macros.

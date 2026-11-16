@@ -33,13 +33,11 @@ AI agent journey for a new member's first five days:
 
 A different agent persona leads each of the member's first five sign-in days. It appears in a companion panel on every page and greets the member by name and time of day. Each step links to where it is done and ticks itself when the member does it. Each step also has an Ask button that opens the AI assistant with the question already typed in.
 
-| Day | Agent | What it does |
-|---|---|---|
-| 1 | **Welcome Buddy**: warm, empathetic, a 24/7 companion | Helps the member set up their profile: skills, work experience, a certification, LinkedIn or GitHub import, and skill levels in the Skills Center. |
-| 2 | **Success Coach**: mentor-like and proactive | The member's own motivators steer the AI. Steps: choose career focus areas, apply for a recommended opportunity, join learning that closes a skill gap. |
-| 3 | **Community Connector** | Ask a mentor or coach, message a buddy, connect with alumni, sign up for a meetup. |
-| 4 | **Profile Completion Agent** | Checks what the profile still lacks: details, LinkedIn and GitHub links, skills and their levels, certifications, education, previous company experience and tenure. Sends one reminder naming exactly what is missing. |
-| 5 | **Coaching Prep Agent** | Prepares coaches for high-impact moments. Reminds the member and their coach to set up a 1:1, and gives the coach a brief. Coaches get a 1:1 prep view for every mentee, with team insights. Only what the mentee shared for mentoring is used, never private details. |
+- **Day 1: Welcome Buddy.** Warm, empathetic and available 24/7, it welcomes the member and takes them through setting up their profile one small step at a time: their skills, work experience and a certification, a LinkedIn or GitHub import, and skill levels in the Skills Center.
+- **Day 2: Success Coach.** Mentor-like and proactive, it explains that the member's own motivators steer what the AI recommends. It helps them choose career focus areas, apply for a recommended opportunity and join learning that closes a skill gap.
+- **Day 3: Community Connector.** It introduces the member to the community: ask a mentor or coach for guidance, say hello to a fellow member, connect with alumni and sign up for a meetup.
+- **Day 4: Profile Completion Agent.** It checks what the profile still lacks: details, LinkedIn and GitHub links, skills and their levels, certifications, education, previous company experience and tenure. It sends one reminder naming exactly what is missing, and stays out of the way when the profile is complete.
+- **Day 5: Coaching Prep Agent.** It prepares members and coaches for high-impact 1:1s. It reminds both to set up a time and gives the coach a short brief. Coaches also get a 1:1 prep view with a brief on every mentee and team insights. Only what the mentee shared for mentoring is used, never private details.
 
 Platform:
 - **Two-schema security model.** The app schema sees only masked views and packages, never tables.

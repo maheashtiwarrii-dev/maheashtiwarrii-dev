@@ -16,7 +16,7 @@ I'm now building with **Agentic AI and Spec-Driven Development**. My current wor
 **Talent Marketplace Solution** is an AI-powered talent marketplace for a professional community of members, partner companies, mentors and trainers. It runs on Oracle APEX 26 and Oracle AI Database 26ai and was built spec-first. The process:
 - BRD → PRD → plan → APEX build;
 - each stage passes a 2-of-3 review gate;
-- every iteration is deployed to a live dev environment, with 220+ automated tests on each deploy.
+- every iteration is deployed to a live dev environment, with 230 automated tests on each deploy, and then to production.
 
 <p align="center"><img src="talent-marketplace-explore.svg" width="100%" alt="Explore the Talent Marketplace: project opportunities, continuous learning, coaches, welcome new members, meetups, events, volunteering, jobs, community announcements and community wellbeing."></p>
 
@@ -45,6 +45,15 @@ Platform:
 - **Member directory.** Faceted search over masked data.
 - **Profile depth.** Profiles cover tenure, experience, education, certifications, skills with self-rated levels, career status and a private CV.
 - **Testing and CI.** utPLSQL suites run on the live database, and the APEXLang source is validated in CI.
+
+Project management, tracked inside the app with APEX AI:
+
+The whole delivery is planned, tracked and reported from inside the application itself. APEX AI (an AI agent writing APEXLang, SQL and PL/SQL alongside me) keeps every project artefact in step with the build.
+- **Every request is a decision record.** Each change request becomes a numbered decision (330+ so far) and a row in the iteration log. Both link through to the requirements traceability matrix (135 requirements, 133 test cases) and the UAT plan, which are regenerated on every build.
+- **Kanban in the app.** The delivery board has 144 tasks across 16 sprints and 10 gates, sized at 305 person-days before a 20% contingency. It is loaded into the database on every deploy and shown to platform admins on a Progress page: cards by status, progress by workstream and the project credits. As of 19 Nov 2026, 98 of the 144 tasks are done.
+- **Project plan (CPMAI).** A 25-tab plan workbook built on PMI's Cognitive Project Management for AI covers the lifecycle roadmap, RACI, RAID log, KPI dashboard, sprint capacity and performance, gate checklist, status report and CI/CD pipeline. It is refreshed from the Kanban and published inside the app, with every tab as a web page and an Excel download.
+- **One-step publish.** A VS Code task rebuilds the plan and the Kanban, validates the app, applies the database changes with Liquibase and imports the app to dev and production, stopping at the first failed check.
+- **Quality gates on every deploy.** Offline APEXLang validation, security, link and brand checks, and 230 utPLSQL tests on the live database.
 
 ---
 

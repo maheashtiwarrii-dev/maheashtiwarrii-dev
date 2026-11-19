@@ -46,7 +46,7 @@ Platform:
 - **Profile depth.** Profiles cover tenure, experience, education, certifications, skills with self-rated levels, career status and a private CV.
 - **Testing and CI.** utPLSQL suites run on the live database, and the APEXLang source is validated in CI.
 
-Project management, tracked inside the app with APEX AI:
+**Project management, tracked inside the app with APEX AI:**
 
 The whole delivery is planned, tracked and reported from inside the application itself. APEX AI (an AI agent writing APEXLang, SQL and PL/SQL alongside me) keeps every project artefact in step with the build.
 - **Every request is a decision record.** Each change request becomes a numbered decision (330+ so far) and a row in the iteration log. Both link through to the requirements traceability matrix (135 requirements, 133 test cases) and the UAT plan, which are regenerated on every build.

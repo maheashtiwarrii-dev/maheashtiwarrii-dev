@@ -49,11 +49,30 @@ Platform:
 **Project management, tracked inside the app with APEX AI:**
 
 The whole delivery is planned, tracked and reported from inside the application itself. APEX AI (an AI agent writing APEXLang, SQL and PL/SQL alongside me) keeps every project artefact in step with the build.
-- **Every request is a decision record.** Each change request becomes a numbered decision (330+ so far) and a row in the iteration log. Both link through to the requirements traceability matrix (135 requirements, 133 test cases) and the UAT plan, which are regenerated on every build.
-- **Kanban in the app.** The delivery board has 144 tasks across 16 sprints and 10 gates, sized at 305 person-days before a 20% contingency. It is loaded into the database on every deploy and shown to platform admins on a Progress page: cards by status, progress by workstream and the project credits. As of 19 Nov 2026, 98 of the 144 tasks are done.
-- **Project plan (CPMAI).** A 25-tab plan workbook built on PMI's Cognitive Project Management for AI covers the lifecycle roadmap, RACI, RAID log, KPI dashboard, sprint capacity and performance, gate checklist, status report and CI/CD pipeline. It is refreshed from the Kanban and published inside the app, with every tab as a web page and an Excel download.
+- **Every request is a decision record.** Each change request becomes a numbered decision (360 so far) and a row in the iteration log. Both link through to the requirements traceability matrix (135 requirements, 133 test cases) and the UAT plan, which are regenerated on every build.
+- **Kanban in the app.** The delivery board has 144 tasks across 16 sprints and 10 gates, sized at 305 person-days before a 20% contingency. It is loaded into the database on every deploy and shown to platform admins on a Progress page: cards by status, progress by workstream and the project credits. As of 24 Nov 2026, 98 of the 144 tasks are done.
+- **Project plan (CPMAI).** A 37-tab plan workbook built on PMI's Cognitive Project Management for AI covers the lifecycle roadmap, RACI, RAID log, KPI dashboard, sprint capacity and performance, gate checklist, status reports and CI/CD pipeline. It is refreshed from the Kanban and published inside the app, with every tab as a web page and an Excel download.
 - **One-step publish.** A VS Code task rebuilds the plan and the Kanban, validates the app, applies the database changes with Liquibase and imports the app to dev and production, stopping at the first failed check.
-- **Quality gates on every deploy.** Offline APEXLang validation, security, link and brand checks, and 230 utPLSQL tests on the live database.
+- **Quality gates on every deploy.** Offline APEXLang validation, security, link and brand checks, and 238 utPLSQL tests on the live database.
+
+**Project deliverables:**
+
+| Deliverable | What it contains |
+|---|---|
+| Project kick-off | Agenda, objectives and success statement, scope, risks, constraints, approach, governance with risk and issue thresholds, team, timeline and milestones, security and compliance, deliverable acceptance |
+| Status reports (MSR and WSR) | Schedule, cost, scope, quality, risk and resource KPIs with RAG, earned value (SPI, CPI, EAC), budget, stakeholders and, weekly, the critical path to go-live |
+| Project budget | Total budget with contingency, labour, PERT estimate, risk reserve by expected monetary value, cost variance, CPI, EAC, benefit-cost ratio, by sprint and to date |
+| Gantt chart | Every task with a planned bar against an actual bar by week, and the planned vs actual progress curve |
+| Delivery progress dashboard | Development, testing, UAT, go-live and critical path, with RAG, refreshed in the app on every deployment |
+| Risk profile and best practices | 62 implementation best practices assessed, 14 risk areas with RAG, findings rated 1-5, recommendations and an action plan |
+| Success plan and rescue plan | Vision to measurements, project objectives with live status, how to defend the design with CXO stakeholders, and the route from amber or red back to green |
+| Change management and adoption | Stakeholder map, impact assessment, communication and training plans, ADKAR readiness, and the Connect, Collaborate, Communicate and Celebrate deliverables with their status |
+| Requirements traceability matrix | 135 requirements traced to pages, automated tests and 133 manual test cases |
+| UAT plan | Test logins by role, 20 journeys, 12 platform checks, 133 test cases, defect log, results summary and sign-off |
+| System models and page catalogue | Data and process models; every page (106) with its purpose and access |
+| Kanban and CI/CD pipeline | 144 tasks over 16 sprints and 10 gates; the build, test and deploy pipeline |
+| Project management module | Customer, contract, project, billing, invoice and receivables in the app, so the solution can be replicated for a new customer |
+| Integration design | Options, data flows, privacy impact and effort for integrating with Oracle Fusion HCM, with a step-by-step tracker in the app |
 
 ---
 

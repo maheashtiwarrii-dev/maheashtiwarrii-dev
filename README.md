@@ -25,10 +25,13 @@ I'm now building with **Agentic AI and Spec-Driven Development**. My current wor
 <p align="center"><img src="talent-marketplace-features.svg" width="100%" alt="Key features: Coaching, Continuous Learning, Mentoring, Job Discovery, Skills Center and Volunteering. AI capabilities: smart matching, recommendations, your skills vs this role, skills advisors for members, postings and learning, suggested members, and an Ask agent."></p>
 
 AI capabilities:
-- **AI talent matching.** Smart matching, recommended opportunities, jobs, learning and mentors, similar opportunities and suggested members. Each is ranked on four signals (skills, skill gaps, interests and roles applied for) using in-database vector embeddings, and every card says why.
-- **Skills advisors.** Suggest skills for members, job and gig postings and training, from free text and from roles like theirs. "Your skills vs this role" shows each skill a role asks for, the member's level (Novice to Expert) and training that closes a gap.
-- **Skills dashboard.** Shows skills by headcount and by demand, the proficiency mix, skills in short supply and learning outcomes to cover next.
-- **AI agent.** A floating assistant answers plain-language questions about roles, events, people, volunteering and how-to.
+- **Intelligent Matching.** Ranks people, roles, gigs and learning on contextual similarity (in-database vector embeddings compare the meaning of a profile with each item) together with skills, skill gaps, focus areas, interests, location and roles applied for. Every card says why it was matched.
+- **Career Advancement Command Center.** One workspace for a member's next career step: a summary of their strengths and development plan, readiness for their next role with strengths and gaps, matched jobs and gigs with a fit label and the gaps that affect eligibility, learning and events that close the gaps, next steps (apply, enrol, connect, register) and draft messages to hiring contacts, peers and mentors.
+- **Skills Center.** A workspace for skill, people, development and growth recommendations, with a skill dashboard per member: levels, gap to the role, radar by skill area, progress, verification and evidence, job match, career path and an overall skills index. Members can share it with partner companies.
+- **Skills Advisor.** Recommends skills for members (from work history, education, certifications, summary, interests and job function, with a suggested level), for job requisitions and gigs (from title and description, and what similar roles ask for) and for candidates on a role (skills already in their experience).
+- **Skills Nexus.** Keeps the skills and jobs inventory consistent and fresh: likely duplicates and synonyms, stale and unused skills, supply gaps, and the skill requirements of each job role.
+- **Job, competency and skill architecture.** Every member is placed in a job family, role and level (L1 to L5) from their profile, with the role's success profile and one proficiency scale. Organisation skills analytics cover the skill heatmap, critical and emerging skills, supply against demand and succession readiness.
+- **AI agents.** A floating assistant answers plain-language questions about roles, events, people, volunteering and how-to; persona agents guide a new member's first five days (below); a monthly job-board agent imports roles from 8 employers, closes stale ones and ranks candidates.
 - **Responsible AI.** Each AI feature sits behind a data-protection (DPIA) gate. Answers are built from the platform's own data, members opt in to AI matching, and usage is capped per member per day and reported to admins.
 
 AI agent journey for a new member's first five days:
@@ -37,7 +40,7 @@ A different agent persona leads each of the member's first five sign-in days. It
 
 - **Day 1: Welcome Buddy.** Warm, empathetic and available 24/7, it welcomes the member and takes them through setting up their profile one small step at a time: their skills, work experience and a certification, a LinkedIn or GitHub import, and skill levels in the Skills Center.
 - **Day 2: Success Coach.** Mentor-like and proactive, it explains that the member's own motivators steer what the AI recommends. It helps them choose career focus areas, apply for a recommended opportunity and join learning that closes a skill gap.
-- **Day 3: Community Connector.** It introduces the member to the community: ask a mentor or coach for guidance, say hello to a fellow member, connect with alumni and sign up for a meetup.
+- **Day 3: Community Connector.** It introduces the member to the community: ask a mentor or coach for guidance, say hello to a fellow member, connect with fellow members and sign up for a meetup.
 - **Day 4: Profile Completion Agent.** It checks what the profile still lacks: details, LinkedIn and GitHub links, skills and their levels, certifications, education, previous company experience and tenure. It sends one reminder naming exactly what is missing, and stays out of the way when the profile is complete.
 - **Day 5: Coaching Prep Agent.** It prepares members and coaches for high-impact 1:1s. It reminds both to set up a time and gives the coach a short brief. Coaches also get a 1:1 prep view with a brief on every mentee and team insights. Only what the mentee shared for mentoring is used, never private details.
 

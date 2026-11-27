@@ -22,6 +22,8 @@ I'm now building with **Agentic AI and Spec-Driven Development**. My current wor
 
 📄 **[Solution walkthrough (PDF, 25 slides)](Talent-Marketplace-Solution-Walkthrough.pdf)**: AI features, skills intelligence (Skills Center, Skills Advisor, Skills Nexus, Skill Dashboard, Success Profiles), the Career Advancement Command Center, the Talent Opportunity Marketplace and AI-driven project management.
 
+📄 **[AI-Enabled Talent Marketplace in 3 slides (PDF)](AI-Talent-Marketplace-3-Slides.pdf)**: problem and solution, value proposition and competitive differentiators, customer traction and barriers.
+
 🎬 **Videos**
 - [Application walkthrough (70 seconds)](OAN-Application-Walkthrough-70s.mp4): AI matching, skills intelligence, the Career Advancement Command Center and AI-driven project management.
 - [Enterprise AI Strategy for GCCs with Oracle APEX AI (95 seconds)](Enterprise-AI-Strategy-GCC-APEX-AI.mp4): turning a Global Capability Centre into the enterprise's AI centre of gravity, with the talent marketplace as the proof point.

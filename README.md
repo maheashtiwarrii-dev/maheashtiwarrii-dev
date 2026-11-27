@@ -13,7 +13,7 @@ I'm now building with **Agentic AI and Spec-Driven Development**. My current wor
 
 ---
 
-### 🔭 What I'm building
+### 🔭 Solution Delivered
 
 **Talent Marketplace Solution** is an AI-powered talent marketplace for a professional community of members, partner companies, mentors and trainers. It runs on Oracle APEX 26 and Oracle AI Database 26ai and was built spec-first. The process:
 - BRD → PRD → plan → APEX build;

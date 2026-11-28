@@ -18,7 +18,7 @@ I'm now building with **Agentic AI and Spec-Driven Development**. My current wor
 **Talent Marketplace Solution** is an AI-powered talent marketplace for a professional community of members, partner companies, mentors and trainers. It runs on Oracle APEX 26 and Oracle AI Database 26ai and was built spec-first. The process:
 - BRD → PRD → plan → APEX build;
 - each stage passes a 2-of-3 review gate;
-- every iteration is deployed to a live dev environment, with 230 automated tests on each deploy, and then to production.
+- every iteration is deployed to a live dev environment, with 251 automated tests on each deploy, and then to production.
 
 📄 **[Solution walkthrough (PDF, 25 slides)](Talent-Marketplace-Solution-Walkthrough.pdf)**: AI features, skills intelligence (Skills Center, Skills Advisor, Skills Nexus, Skill Dashboard, Success Profiles), the Career Advancement Command Center, the Talent Opportunity Marketplace and AI-driven project management.
 
@@ -41,6 +41,11 @@ AI capabilities:
 - **Skills Nexus.** Keeps the skills and jobs inventory consistent and fresh: likely duplicates and synonyms, stale and unused skills, supply gaps, and the skill requirements of each job role.
 - **Job, competency and skill architecture.** Every member is placed in a job family, role and level (L1 to L5) from their profile, with the role's success profile and one proficiency scale. Organisation skills analytics cover the skill heatmap, critical and emerging skills, supply against demand and succession readiness.
 - **AI agents.** A floating assistant answers plain-language questions about roles, events, people, volunteering and how-to; persona agents guide a new member's first five days (below); a monthly job-board agent imports roles from 8 employers, closes stale ones and ranks candidates.
+- **Dynamic Skills.** Each skill a member lists earns validation points from the people and work behind it - an endorsement from their mentor or coach, a skill expert, a peer or a connection, learning completed, roles and gigs they were hired for, a certification - and 100 points validates it. Members choose skills to develop or that they are proficient at, with the reason for each suggestion (peers, current role, similar skills, hot skills), and see career ambassadors, gigs and learning for the skills they are developing.
+- **Job competency model.** 69 competencies with behavioural indicators and five levels, 15 job profiles with a target level for each, and Senior Manager, Director and Senior Director competencies that senior members rate against "what this level looks like".
+- **Coaching platform.** Coaches in place of a manager, alongside mentors and an AI coach: nomination, matching on skill gaps, 30-60-90 day goals with a KPI each, coaching circles and goal sprints, competency assessment, practice scenarios, and evaluation.
+- **Skills Hub.** Skills as the red thread of the community: eight talent practices with live figures, skills supply against demand, a maturity view, community insights for admins, and a map of the AI apps (recommended and similar jobs, best and similar candidates, time to hire, best careers, best successor, dynamic skills).
+- **Contingent Worker Solution.** For members on projects, contracts and gigs: Core HR (worker record, onboarding, worker card, offboarding and rehire), Profile, Time and Labor (web clock, time cards, overtime rules, approvals, missed-punch alerts), Absence (accrual plans, balances, approvals), Payroll (pay runs, deductions, bills, wage slips) and Talent Management (goals, continuous feedback, evaluations, talent review), connected by a live hire-to-pay process flow and an HR dashboard.
 - **Responsible AI.** Each AI feature sits behind a data-protection (DPIA) gate. Answers are built from the platform's own data, members opt in to AI matching, and usage is capped per member per day and reported to admins.
 
 AI agent journey for a new member's first five days:
@@ -63,11 +68,11 @@ Platform:
 **Project management, tracked inside the app with APEX AI:**
 
 The whole delivery is planned, tracked and reported from inside the application itself. APEX AI (an AI agent writing APEXLang, SQL and PL/SQL alongside me) keeps every project artefact in step with the build.
-- **Every request is a decision record.** Each change request becomes a numbered decision (360 so far) and a row in the iteration log. Both link through to the requirements traceability matrix (135 requirements, 133 test cases) and the UAT plan, which are regenerated on every build.
+- **Every request is a decision record.** Each change request becomes a numbered decision (429 so far) and a row in the iteration log. Both link through to the requirements traceability matrix (135 requirements, 133 test cases) and the UAT plan, which are regenerated on every build.
 - **Kanban in the app.** The delivery board has 144 tasks across 16 sprints and 10 gates, sized at 305 person-days before a 20% contingency. It is loaded into the database on every deploy and shown to platform admins on a Progress page: cards by status, progress by workstream and the project credits. As of 24 Nov 2026, 98 of the 144 tasks are done.
-- **Project plan (CPMAI).** A 37-tab plan workbook built on PMI's Cognitive Project Management for AI covers the lifecycle roadmap, RACI, RAID log, KPI dashboard, sprint capacity and performance, gate checklist, status reports and CI/CD pipeline. It is refreshed from the Kanban and published inside the app, with every tab as a web page and an Excel download.
+- **Project plan (CPMAI).** A 40-tab plan workbook built on PMI's Cognitive Project Management for AI covers the lifecycle roadmap, RACI, RAID log, KPI dashboard, sprint capacity and performance, gate checklist, status reports and CI/CD pipeline. It is refreshed from the Kanban and published inside the app, with every tab as a web page and an Excel download.
 - **One-step publish.** A VS Code task rebuilds the plan and the Kanban, validates the app, applies the database changes with Liquibase and imports the app to dev and production, stopping at the first failed check.
-- **Quality gates on every deploy.** Offline APEXLang validation, security, link and brand checks, and 238 utPLSQL tests on the live database.
+- **Quality gates on every deploy.** Offline APEXLang validation, security, link and brand checks, and 251 utPLSQL tests on the live database.
 
 **Project deliverables:**
 
@@ -83,7 +88,7 @@ The whole delivery is planned, tracked and reported from inside the application 
 | Change management and adoption | Stakeholder map, impact assessment, communication and training plans, ADKAR readiness, and the Connect, Collaborate, Communicate and Celebrate deliverables with their status |
 | Requirements traceability matrix | 135 requirements traced to pages, automated tests and 133 manual test cases |
 | UAT plan | Test logins by role, 20 journeys, 12 platform checks, 133 test cases, defect log, results summary and sign-off |
-| System models and page catalogue | Data and process models; every page (106) with its purpose and access |
+| System models and page catalogue | Data and process models; every page (110) with its purpose and access |
 | Kanban and CI/CD pipeline | 144 tasks over 16 sprints and 10 gates; the build, test and deploy pipeline |
 | Project management module | Customer, contract, project, billing, invoice and receivables in the app, so the solution can be replicated for a new customer |
 | Integration design | Options, data flows, privacy impact and effort for integrating with Oracle Fusion HCM, with a step-by-step tracker in the app |
